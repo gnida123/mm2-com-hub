@@ -1,0 +1,107 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "хаб для комфортной игры в мм2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab1 = Window:MakeTab({
+	Name = "hub",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab1:AddSection({
+	Name = "hub"
+})
+
+Tab1:AddButton({
+	Name = "SnapSanixHUB",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
+  	end
+})    
+
+local Tab2 = Window:MakeTab({
+	Name = "emotes",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab2:AddSection({
+	Name = "emotes"
+})
+
+Tab2:AddButton({
+	Name = "emotes",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+  	end    
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "animations",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab3:AddSection({
+	Name = "animations"
+})
+
+Tab3:AddButton({
+	Name = "animations",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script9")
+  	end    
+})
+
+
+local Tab4 = Window:MakeTab({
+	Name = "infinite yield",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab4:AddSection({
+	Name = "infinite yield"
+})
+
+Tab4:AddButton({
+	Name = "infinite yield original",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab4:AddButton({
+	Name = "infinite yield reborn",
+	Callback = function()
+      		loadstring(game:HttpGet("https://github.com/fuckusfm/infiniteyield-reborn/raw/master/source"))()
+  	end    
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "skybox",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab5:AddSection({
+	Name = "changer"
+})
+
+Tab5:AddButton({
+	Name = "ВИД",
+	Callback = function()
+      		local texture = "http://www.roblox.com/asset/?id=102903613"
+            local sky = Instance.new("Sky")
+ 
+            sky.Parent = game.Lighting
+ 
+            sky.CelestialBodiesShown = false
+            sky.SkyboxBk = texture
+            sky.SkyboxDn = texture
+            sky.SkyboxFt = texture
+            sky.SkyboxLf = texture
+            sky.SkyboxRt = texture
+            sky.SkyboxUp = texture
+  	end    
+})
