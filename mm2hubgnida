@@ -120,6 +120,7 @@ Tab6:AddSlider({
 	Name = "fov",
 	Min = 1,
 	Max = 120,
+        Default = 70,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "fov",
