@@ -213,7 +213,7 @@ Players.PlayerRemoving:Connect(function(plr)
     end
     if connections[plr] then
         connections[plr]:Disconnect()
-    endц
+    end
 end)
   	end    
 })
