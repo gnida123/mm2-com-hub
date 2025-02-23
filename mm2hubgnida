@@ -53,6 +53,13 @@ Tab3:AddButton({
   	end    
 })
 
+Tab3:AddButton({
+	Name = "animations n2",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/RubyBoo4life/Scripts/main/animations.vis'))()
+  	end    
+})
+
 
 local Tab4 = Window:MakeTab({
 	Name = "infinite yield",
