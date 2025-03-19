@@ -47,7 +47,7 @@ local Section = Tab3:AddSection({
 })
 
 Tab3:AddButton({
-	Name = "animations",
+	Name = "animations (not work)",
 	Callback = function()
       		loadstring(game:HttpGet('https://pastefy.app/S7xNJSXX/raw'))()execute("Script9")
   	end    
@@ -57,6 +57,13 @@ Tab3:AddButton({
 	Name = "animations n2",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/RubyBoo4life/Scripts/main/animations.vis'))()
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "animations & emotes (best)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BeemTZy/Motiona/refs/heads/main/source.lua"))()
   	end    
 })
 
