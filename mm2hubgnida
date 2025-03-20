@@ -9,13 +9,20 @@ local Tab1 = Window:MakeTab({
 })
 
 local Section = Tab1:AddSection({
-	Name = "hub"
+	Name = "mm2 hubs"
 })
 
 Tab1:AddButton({
-	Name = "SnapSanixHUB",
+	Name = "SnapSanixHUB (solara only)",
 	Callback = function()
       		loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
+  	end
+})    
+
+Tab1:AddButton({
+	Name = "yarhm",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
   	end
 })    
 
