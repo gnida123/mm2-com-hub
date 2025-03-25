@@ -113,6 +113,8 @@ Tab5:AddButton({
 	Name = "ВИД",
 	Callback = function()
       	        loadstring(game:HttpGet("https://pastebin.com/raw/Zpaf00Nu"))()
+        end
+})
 
 local Tab6 = Window:MakeTab({
 	Name = "sliders",
