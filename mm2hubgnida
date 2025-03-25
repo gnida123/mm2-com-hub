@@ -110,10 +110,10 @@ local Section = Tab5:AddSection({
 })
 
 Tab5:AddButton({
-	Name = "ВИД",
+	Name = "shader",
 	Callback = function()
-      	        loadstring(game:HttpGet("https://pastebin.com/raw/Zpaf00Nu"))()
-        end
+      		loadstring(game:HttpGet("https://pastebin.com/raw/Zpaf00Nu"))()
+  	end    
 })
 
 local Tab6 = Window:MakeTab({
