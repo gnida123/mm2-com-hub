@@ -100,32 +100,19 @@ Tab4:AddButton({
 })
 
 local Tab5 = Window:MakeTab({
-	Name = "skybox",
+	Name = "shaders",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 local Section = Tab5:AddSection({
-	Name = "changer"
+	Name = "so op"
 })
 
 Tab5:AddButton({
 	Name = "ВИД",
 	Callback = function()
-      		local texture = "http://www.roblox.com/asset/?id=102903613"
-            local sky = Instance.new("Sky")
- 
-            sky.Parent = game.Lighting
- 
-            sky.CelestialBodiesShown = false
-            sky.SkyboxBk = texture
-            sky.SkyboxDn = texture
-            sky.SkyboxFt = texture
-            sky.SkyboxLf = texture
-            sky.SkyboxRt = texture
-            sky.SkyboxUp = texture
-  	end    
-})
+      	        loadstring(game:HttpGet("https://pastebin.com/raw/Zpaf00Nu"))()
 
 local Tab6 = Window:MakeTab({
 	Name = "sliders",
