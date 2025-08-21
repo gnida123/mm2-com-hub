@@ -24,6 +24,13 @@ Tab1:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
   	end
+})
+
+Tab1:AddButton({
+	Name = "aim trainer",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CapybaraScript/Key1-/refs/heads/main/Aimtra", false))()
+  	end
 })    
 
 local Tab2 = Window:MakeTab({
