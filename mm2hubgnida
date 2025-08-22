@@ -50,6 +50,13 @@ Tab2:AddButton({
   	end    
 })
 
+Tab2:AddButton({
+	Name = "same script but with self added emotes",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/gnida123/emote-/refs/heads/main/speed?token=GHSAT0AAAAAADEPPUZRCBCKHMIETNUVRCH22FIB2NQ"))()
+  	end    
+})
+
 local Tab3 = Window:MakeTab({
 	Name = "animations",
 	Icon = "rbxassetid://4483345998",
